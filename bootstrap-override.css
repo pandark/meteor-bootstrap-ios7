@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/packages/pandark_bootstrap-ios7/bootstrap-ios7/fonts/ratchicons.eot');
+  src: url('/packages/pandark_bootstrap-ios7/bootstrap-ios7/fonts/ratchicons.eot?#iefix') format('embedded-opentype'), url('/packages/pandark_bootstrap-ios7/bootstrap-ios7/fonts/ratchicons.woff') format('woff'), url('/packages/pandark_bootstrap-ios7/bootstrap-ios7/fonts/ratchicons.ttf') format('truetype'), url('/packages/pandark_bootstrap-ios7/bootstrap-ios7/fonts/ratchicons.svg#glyphicons_halflingsregular') format('svg');
+}
+

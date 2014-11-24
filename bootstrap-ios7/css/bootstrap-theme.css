@@ -1,0 +1,380 @@
+/*!
+ * Bootstrap iOS7 v2.0.0 (http://jasonbradley.me/bootstrap-ios7)
+ * Copyright 2011-2014 Jason Bradley
+ * Licensed under MIT (https://github.com/jbrad/bootstrap-ios7/blob/master/LICENSE)
+ */
+
+/* line 21, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075); }
+/* line 28, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-default:active, .btn-default.active, .btn-primary:active, .btn-primary.active, .btn-success:active, .btn-success.active, .btn-info:active, .btn-info.active, .btn-warning:active, .btn-warning.active, .btn-danger:active, .btn-danger.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); }
+
+/* line 57, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn:active, .btn.active {
+  background-image: none; }
+
+/* line 63, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-default {
+  text-shadow: 0 1px 0 #fff;
+  background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+  background-image:      -o-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+  background-image:         linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE0E0E0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #dbdbdb;
+  border-color: #ccc; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-default:hover, .btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-default:active, .btn-default.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb; }
+
+/* line 64, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #005dc2 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #005dc2 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #005dc2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF005DC2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #0058b8; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #005dc2;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-primary:active, .btn-primary.active {
+  background-color: #005dc2;
+  border-color: #0058b8; }
+
+/* line 65, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-success {
+  background-image: -webkit-linear-gradient(top, #4cd964 0%, #29bf42 100%);
+  background-image:      -o-linear-gradient(top, #4cd964 0%, #29bf42 100%);
+  background-image:         linear-gradient(to bottom, #4cd964 0%, #29bf42 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4CD964', endColorstr='#FF29BF42', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #27b73f; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-success:hover, .btn-success:focus {
+  background-color: #29bf42;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-success:active, .btn-success.active {
+  background-color: #29bf42;
+  border-color: #27b73f; }
+
+/* line 66, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-info {
+  background-image: -webkit-linear-gradient(top, #34aadc 0%, #1f88b4 100%);
+  background-image:      -o-linear-gradient(top, #34aadc 0%, #1f88b4 100%);
+  background-image:         linear-gradient(to bottom, #34aadc 0%, #1f88b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF34AADC', endColorstr='#FF1F88B4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #1d81ab; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-info:hover, .btn-info:focus {
+  background-color: #1f88b4;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-info:active, .btn-info.active {
+  background-color: #1f88b4;
+  border-color: #1d81ab; }
+
+/* line 67, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-warning {
+  background-image: -webkit-linear-gradient(top, #fc0 0%, #c29b00 100%);
+  background-image:      -o-linear-gradient(top, #fc0 0%, #c29b00 100%);
+  background-image:         linear-gradient(to bottom, #fc0 0%, #c29b00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFCC00', endColorstr='#FFC29B00', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #b89300; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-warning:hover, .btn-warning:focus {
+  background-color: #c29b00;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-warning:active, .btn-warning.active {
+  background-color: #c29b00;
+  border-color: #b89300; }
+
+/* line 68, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-danger {
+  background-image: -webkit-linear-gradient(top, #ff3b30 0%, #f20d00 100%);
+  background-image:      -o-linear-gradient(top, #ff3b30 0%, #f20d00 100%);
+  background-image:         linear-gradient(to bottom, #ff3b30 0%, #f20d00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF3B30', endColorstr='#FFF20D00', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-repeat: repeat-x;
+  border-color: #e80c00; }
+/* line 41, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-danger:hover, .btn-danger:focus {
+  background-color: #f20d00;
+  background-position: 0 -15px; }
+/* line 47, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.btn-danger:active, .btn-danger.active {
+  background-color: #f20d00;
+  border-color: #e80c00; }
+
+/* line 77, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.thumbnail, .img-thumbnail {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .075); }
+
+/* line 88, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #e8e8e8; 
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFE8E8E8', GradientType=0);
+  background-repeat: repeat-x;}
+
+/* line 94, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  background-color: #006ee6; 
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #006ee6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF006EE6', GradientType=0);
+  background-repeat: repeat-x;}
+
+/* line 106, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image:      -o-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image:         linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF8F8F8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075); }
+/* line 113, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-default .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f3f3f3 100%);
+  background-image:      -o-linear-gradient(top, #ebebeb 0%, #f3f3f3 100%);
+  background-image:         linear-gradient(to bottom, #ebebeb 0%, #f3f3f3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEBEBEB', endColorstr='#FFF3F3F3', GradientType=0);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075); }
+
+/* line 119, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .25); }
+
+/* line 124, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-inverse {
+  background-image: -webkit-linear-gradient(top, #3395ff 0%, #007aff 100%);
+  background-image:      -o-linear-gradient(top, #3395ff 0%, #007aff 100%);
+  background-image:         linear-gradient(to bottom, #3395ff 0%, #007aff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3395FF', endColorstr='#FF007AFF', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
+  background-repeat: repeat-x;}
+/* line 128, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #0d81ff 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #0d81ff 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #0d81ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF0D81FF', GradientType=0);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
+          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25); }
+/* line 134, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25); }
+
+/* line 142, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+  border-radius: 0; }
+
+/* line 153, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.alert {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05); }
+
+/* line 166, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.alert-success {
+  background-image: -webkit-linear-gradient(top, #4cd964 0%, #2dd249 100%);
+  background-image:      -o-linear-gradient(top, #4cd964 0%, #2dd249 100%);
+  background-image:         linear-gradient(to bottom, #4cd964 0%, #2dd249 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4CD964', endColorstr='#FF2DD249', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #26b33e; }
+
+/* line 167, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.alert-info {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #0068d9 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #0068d9 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #0068d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF0068D9', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #0055b3; }
+
+/* line 168, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.alert-warning {
+  background-image: -webkit-linear-gradient(top, #fc0 0%, #d9ad00 100%);
+  background-image:      -o-linear-gradient(top, #fc0 0%, #d9ad00 100%);
+  background-image:         linear-gradient(to bottom, #fc0 0%, #d9ad00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFCC00', endColorstr='#FFD9AD00', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #b38f00; }
+
+/* line 169, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.alert-danger {
+  background-image: -webkit-linear-gradient(top, #ff3b30 0%, #ff170a 100%);
+  background-image:      -o-linear-gradient(top, #ff3b30 0%, #ff170a 100%);
+  background-image:         linear-gradient(to bottom, #ff3b30 0%, #ff170a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF3B30', endColorstr='#FFFF170A', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #e30c00; }
+
+/* line 178, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress {
+  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);
+  background-image:      -o-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);
+  background-image:         linear-gradient(to bottom, #ebebeb 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEBEBEB', endColorstr='#FFF5F5F5', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 188, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress-bar {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #0062cc 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #0062cc 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #0062cc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF0062CC', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 189, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress-bar-success {
+  background-image: -webkit-linear-gradient(top, #4cd964 0%, #2ac845 100%);
+  background-image:      -o-linear-gradient(top, #4cd964 0%, #2ac845 100%);
+  background-image:         linear-gradient(to bottom, #4cd964 0%, #2ac845 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4CD964', endColorstr='#FF2AC845', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 190, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress-bar-info {
+  background-image: -webkit-linear-gradient(top, #34aadc 0%, #218ebd 100%);
+  background-image:      -o-linear-gradient(top, #34aadc 0%, #218ebd 100%);
+  background-image:         linear-gradient(to bottom, #34aadc 0%, #218ebd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF34AADC', endColorstr='#FF218EBD', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 191, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress-bar-warning {
+  background-image: -webkit-linear-gradient(top, #fc0 0%, #cca300 100%);
+  background-image:      -o-linear-gradient(top, #fc0 0%, #cca300 100%);
+  background-image:         linear-gradient(to bottom, #fc0 0%, #cca300 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFCC00', endColorstr='#FFCCA300', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 192, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.progress-bar-danger {
+  background-image: -webkit-linear-gradient(top, #ff3b30 0%, #fc0d00 100%);
+  background-image:      -o-linear-gradient(top, #ff3b30 0%, #fc0d00 100%);
+  background-image:         linear-gradient(to bottom, #ff3b30 0%, #fc0d00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF3B30', endColorstr='#FFFC0D00', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 200, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.list-group {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .075); }
+
+/* line 206, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  text-shadow: 0 -1px 0 #0062cc;
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #0068d9 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #0068d9 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #0068d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF0068D9', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #0068d9; }
+
+/* line 219, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .05); }
+
+/* line 229, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-default > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFE8E8E8', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 230, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-primary > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #006ee6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF006EE6', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 231, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-success > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #4cd964 0%, #37d552 100%);
+  background-image:      -o-linear-gradient(top, #4cd964 0%, #37d552 100%);
+  background-image:         linear-gradient(to bottom, #4cd964 0%, #37d552 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4CD964', endColorstr='#FF37D552', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 232, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-info > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:      -o-linear-gradient(top, #007aff 0%, #006ee6 100%);
+  background-image:         linear-gradient(to bottom, #007aff 0%, #006ee6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF007AFF', endColorstr='#FF006EE6', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 233, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-warning > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #fc0 0%, #e6b800 100%);
+  background-image:      -o-linear-gradient(top, #fc0 0%, #e6b800 100%);
+  background-image:         linear-gradient(to bottom, #fc0 0%, #e6b800 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFCC00', endColorstr='#FFE6B800', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 234, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.panel-danger > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #ff3b30 0%, #ff2317 100%);
+  background-image:      -o-linear-gradient(top, #ff3b30 0%, #ff2317 100%);
+  background-image:         linear-gradient(to bottom, #ff3b30 0%, #ff2317 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF3B30', endColorstr='#FFFF2317', GradientType=0); 
+  background-repeat: repeat-x;}
+
+/* line 242, /home/pandark/versioning/meteor-bootstrap-ios7/git-repo/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/theme */
+.well {
+  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+  background-image:      -o-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+  background-image:         linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE8E8E8', endColorstr='#FFF5F5F5', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: gainsboro;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1); }
+
+/*# sourceMappingURL=../../sass/dist/css/bootstrap-theme.map */
